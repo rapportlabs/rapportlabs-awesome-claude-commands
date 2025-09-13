@@ -1,10 +1,26 @@
 # Rapport Labs Awesome Claude Commands
 
-This repository contains custom Claude commands and DevOps automation scripts for Rapport Labs infrastructure management.
+This repository is for sharing awesome custom slash commands for Claude Code. It contains custom Claude commands and DevOps automation scripts for Rapport Labs infrastructure management.
+
+## New to Custom Slash Commands?
+
+If you're not familiar with custom slash commands in Claude Code, please first read the documentation: https://docs.anthropic.com/en/docs/claude-code/slash-commands
+
+## How to Use This Repository
+
+1. First, backup your existing commands directory if it exists:
+   ```bash
+   cp -r ~/.claude/commands ~/.claude/commands.bak
+   ```
+
+2. Clone this repository as your commands directory:
+   ```bash
+   git clone https://github.com/rapportlabs/rapportlabs-awesome-claude-commands.git ~/.claude/commands
+   ```
 
 ## Prerequisites
 
-Before running any DevOps commands, ensure that helm-mcp is configured in your MCP settings with the following configuration:
+Before running any DevOps commands, ensure that helm-mcp is configured in your MCP settings for Claude Code (ex. `~/.claude.json`) with the following configuration:
 
 ```json
 "helm": {
