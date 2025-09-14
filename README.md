@@ -5,6 +5,10 @@ This repository is for sharing awesome custom slash commands for Claude Code. It
 ## New to Custom Slash Commands?
 
 If you're not familiar with custom slash commands in Claude Code, please first read the documentation: https://docs.anthropic.com/en/docs/claude-code/slash-commands
+You can use commands like this. 
+
+<img width="1892" height="770" alt="87957" src="https://github.com/user-attachments/assets/05a4a7c9-c0b4-417d-b15b-9d02c4119daa" />
+
 
 ## How to Use This Repository
 
