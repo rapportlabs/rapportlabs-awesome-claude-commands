@@ -8,14 +8,10 @@ If you're not familiar with custom slash commands in Claude Code, please first r
 
 ## How to Use This Repository
 
-1. First, backup your existing commands directory if it exists:
+1. First, clone this repo
+2. Then, symlink this repo as rpls/ in ~/.claude/commands
    ```bash
-   cp -r ~/.claude/commands ~/.claude/commands.bak
-   ```
-
-2. Clone this repository as your commands directory:
-   ```bash
-   git clone https://github.com/rapportlabs/rapportlabs-awesome-claude-commands.git ~/.claude/commands
+   ln -s ~/work/rapportlabs-awesome-claude-commands rpls
    ```
 
 ## Prerequisites
