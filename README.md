@@ -1,6 +1,6 @@
-# Rapport Labs Awesome Claude Commands
+# Rapportlabs Awesome Claude Commands
 
-This repository is for sharing awesome custom slash commands for Claude Code. It contains custom Claude commands and DevOps automation scripts for Rapport Labs infrastructure management.
+This repository is for sharing awesome custom slash commands for Claude Code. It contains custom Claude commands.
 
 ## New to Custom Slash Commands?
 
