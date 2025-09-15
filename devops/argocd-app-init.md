@@ -1,6 +1,5 @@
 # Initialize ArgoCD Application Command
 
-
 ## Behavior
 
 First ask the user for the inputs below.
