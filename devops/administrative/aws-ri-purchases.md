@@ -20,13 +20,13 @@ After running the skill, present the results in a formatted table and provide a 
 ** {month}월 RI 구매내역
 
 RDS RI
-- {reservation_id} => ${price_per_instance} * {count} = ${total}
+- {reservation_id} ({instance_class}, {engine}) => ${price_per_instance} * {count} = ${total} ({start_date} ~ {end_date})
 ...
 Elasticache RI
-- {reservation_id} => ${price_per_node} * {count} = ${total}
+- {reservation_id} ({node_type}, {engine}) => ${price_per_node} * {count} = ${total} ({start_date} ~ {end_date})
 ...
 EC2 Savings Plans
-- {savings_plan_id} => ${commitment}/hr * 8760hrs = ${annual_total}
+- {savings_plan_id} => ${commitment}/hr * 8760hrs = ${annual_total} ({start_date} ~ {end_date})
 ...
 Total Price => ${grand_total}
 ```
